@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/.auth/login/aad",
+      "statusCode": "/.auth/login/aad"
+    },
+    {
+      "route": "/.auth/login/github",
+      "statusCode": 404
+    },
+    {
+      "route": "/login",
+      "rewrite": "/.auth/login/twitter"
+    }
+  ]
+}
