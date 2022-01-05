@@ -36,7 +36,7 @@ async function displayMessage() {
         // user is anonymous
         // create login link
         const logoutLink = document.createElement('a');
-        logoutLink.setAttribute('href', '/login');
+        logoutLink.setAttribute('href', '/.auth/login/aad');
         logoutLink.innerText = 'Login to the site!';
 
         // add to page
